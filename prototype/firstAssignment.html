@@ -1,0 +1,129 @@
+<!DOCTYPE html> <!--Version of HTML we are using-->
+<html lang = "en"> <!-- attributes-->
+<head>
+  <title> Web Tech Demo HTML Document </title>
+  <meta charset = "utf-8"/> <!-- Defines the Character set-->
+  <meta name = "viewport" content = "width = device - width, initial-scale = 1"/> <!--responsive Web Design; adjusts size of webpage based on device you are using-->
+  <meta name = "description" content = "This should be a keyword rich short narrativve of the site's purpose"/>
+  <meta name = "keywords" content = "blah, blah, blah"/>
+  <!-- keywords are no longer used by search engines to boost traffic to your site, but they are still necessary for proper SEO (search engine optimization) -->
+ <meta name = "author" content = "Carson Alonzo"/>
+</head>
+  <body>
+    
+    <h1 id = "Send this user to this part of the page" style = "color: red; font-family: Arial; ">Prototype HTML Document Example (Document Title)</h1>
+
+    <h2>Properly Marking up an HTML Document (Primary Content Heading)</h2>
+
+    
+    <form action="processing-script.php" method="post"> <!-- these attributes tell the form what to do and how it will do it. The action attribute takes a program file as an argument and will execute that code once the user submits the information. The method attribute tells us how the action will be performed and how that information will be processed-->
+      
+      <fieldset>
+        <legend>Personal Information</legend> <!-- Labels the field-->
+        <label for="cust-name">Name:</label><input type = "text" id="cust-name" name="cust-name" placeholder="Full Name"/>
+        <label for="address">Address:</label>
+        <textarea id="address" name="address"></textarea>
+        <label for="Colors">Favorite Color</label>
+        <select id="Colors" name="Colors">
+          <option value="R">Red</option>
+          <option value="G">Green</option>
+          <option value="B">Blue</option>
+          <option value="null">---</option>
+        </select>
+        
+          
+        </select>
+      </fieldset>
+      
+    </form>
+    
+    
+    
+    <table border>
+      <caption>Groceries</caption>
+    <tr><th scope="col">ITEM</th><th scope="col">QUANTITY</th><th scope="col">COST</th></tr>
+      <tr><td>Ramen</td><td>2</td><td>$1.25</td></tr>
+      <tr><td>Ramen</td><td>2</td><td>$1.25</td></tr>
+      <tr><td>Ramen</td><td>2</td><td>$1.25</td></tr>
+  </table>
+    
+  This is a paragraph. Often times designers will use "Dummy Text" as a placeholder in a document. An example of that text follows: 
+    
+    <p><em><q>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent volutpat velit sed massa. In volutpat eros sagittis ipsum. Donec fringilla risus nec nunc. Fusce tellus arcu, blandit quis, posuere in, porta vitae, lorem. Quisque feugiat arcu eget sapien. Aenean eget ipsum id arcu bibendum porttitor. Vivamus id lectus non eros eleifend aliquet. <strong>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris volutpat.</strong> Integer dignissim consequat enim. Praesent velit felis, tempus malesuada, sagittis et, condimentum in, ante. Nulla lobortis, ligula sit amet laoreet sollicitudin, sem arcu lacinia tellus, id lobortis arcu urna tincidunt turpis.</p></em></q>
+
+   <h3>This is a Subsection of the Primary Content (Subsection I)</h3>
+
+<p>This is a paragraph. Often times designers will use "Dummy Text" as a placeholder in a document. An example of that text follows...</p><p><i>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent volutpat velit sed massa. In volutpat eros sagittis ipsum. Donec fringilla risus nec nunc. Fusce tellus arcu, blandit quis, posuere in, porta vitae, lorem. Quisque feugiat arcu eget sapien. Aenean eget ipsum id arcu bibendum porttitor. Vivamus id lectus non eros eleifend aliquet. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris volutpat. Integer dignissim consequat enim. Praesent velit felis, tempus malesuada, sagittis et, condimentum in, ante. Nulla lobortis, ligula sit amet laoreet sollicitudin, sem arcu lacinia tellus, id lobortis arcu urna tincidunt turpis.</i></p>
+
+This is a list of instructions:
+  <ol start = "5">
+  <li>Instruction</li> 
+  <li>Instruction</li>
+    <ul>
+        <li>Ramen</li>
+        <li>Cheetos</li>
+        <li>Jolt</li> 
+        <li>Bread</li>
+      </ul>
+  <li>Instruction</li>
+  </ol>
+
+  This is a list of items to purchase at the grocery store:
+
+  <ul>
+  <li>Ramen</li>
+  <li>Cheetos</li>
+  <li>Jolt</li> 
+  <li>Bread</li>
+  </ul>
+
+  This is an Example of how we should mark up a term and its description(s)
+  <dl>
+<dt>Term<dt>
+<dd>Description 1</dd>
+<dd>Description 2</dd>
+    
+    <dt>Term<dt>
+<dd>Description 1</dd>
+<dd>Description 2</dd>
+<dd>Description 3</dd>
+<dd>Description 4</dd>
+  </dl>
+  
+  <h4>This is a Subsection of Subsection I</h4>
+
+<q>This is a Quote. Content precedes design. Design in the absence of content is not design, it's decoration. From Designing with Web Standards by Jeffery Zeldman.</q>
+
+  <h5>This is a Subsection of the Primary Content (Subsection II)</h5>
+
+This is a paragraph. 
+  
+  <p><i>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent volutpat velit sed massa. In volutpat eros sagittis ipsum. Donec fringilla risus nec nunc. Fusce tellus arcu, blandit quis, posuere in, porta vitae, lorem. Quisque feugiat arcu eget sapien. Aenean eget ipsum id arcu bibendum porttitor. Vivamus id lectus non eros eleifend aliquet. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris volutpat. Integer dignissim consequat enim. Praesent velit felis, tempus malesuada, sagittis et, condimentum in, ante. Nulla lobortis, ligula sit amet laoreet sollicitudin, sem arcu lacinia tellus, id lobortis arcu urna tincidunt turpis. Proin adipiscing ultrices dui. Duis porttitor, libero ut eleifend pellentesque, risus turpis fermentum est, vel nonummy lorem est id nisl. Nulla facilisi. In sagittis tortor. Vestibulum dictum leo vitae augue. Morbi in odio sed nulla luctus sodales.</i></p>
+  
+  <img src = "https://i.pinimg.com/originals/ce/aa/dd/ceaadd060b813ac783a59085bc3194ef.jpg" alt = "Shoebill Stork" />
+
+<h6>This is the Navigation for the Page
+<nav>
+  <ul>
+    <li><a href = "https://www.gagebeasleyshop.com/products/shoebill-stork" target = "_blank" title = "This is a link to a shoebill stork plushie">Shoebill Stork Plushie I want</a></li> <!-- target attribute opens the href link in a new tab-->
+    
+    <li><a href = "https://www.gagebeasleyshop.com/cdn/shop/products/1_4ddd89d5-5a8b-4052-b28e-4a4774939fa7_720x.png?v=1667226849" download> Download this picture</a></li>
+
+    <li><a href = sub-directory/folder/About.html> Relative link</a></li>
+
+    <li><a href = "https://ualr.edu#news" target = "_blank"> Absolute Link</a></li>
+
+    <li><a href = "#Send this user to this part of the page">Anchor Link</a></li>
+    <li><a href = "mailto:email@email.com"> Contact Information <!-- Redirect user to their primary email service; not advised to use this--></a></li>
+  </ul>
+  
+  <address>
+    Thomas Wallace <br />
+    555 Street Dr. <br />
+    Little Rock, AR 72204 <br />
+  </address>
+  
+  </nav>
+<h6><a href = "#top"> &copy;This is the the footer. You should always include any copyright information in this section as well as a way to contact the owner of the page. You can click this text to return to the top of the page.</a></h6>
+  </body>
+<html>
