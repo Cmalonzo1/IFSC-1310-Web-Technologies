@@ -1,7 +1,87 @@
 html{
+    box-sizing:border-box;
+}
 
+*,*:before,*:after{
+    box-sizing: inherit;
 }
 
 body{
-    background-color: blue;
+    background-color: grey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+header.primary{
+    background-color: #5833A6;
+    color:white;
+    text-align:center;
+    text-shadow:2px,2px,black; /*Parameters: x-y positions of the shadow, color*/
+
+    /*long form*/
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+
+    /*single-value short form (applies to all sides)*/
+    padding: 20px;
+
+    /*Top-right-bottom-left padding*/
+    padding:40px,40px,40px,40px;
+}
+
+header.primary h1{
+    font-size: 2.4rem;
+    /*background: red;*/
+}
+
+header.primary h1 a{
+    color:white;
+    text-decoration: none; /*Hides the underline in a hyperlink (not good practice as it hides visual indicators)*/
+}
+
+header.primary h2{
+    margin: 0;
+    font-size: 1.4rem;
+}
+
+header.primary nav{
+    max-width: 900px; /*the size of the border will not extend farther than 900 pixels*/
+    /*background: red;*/
+    margin:auto; /*using text-align centers the contents inside the block but not the block itself*/
+}
+
+header.primary nav a{
+    color:white;
+    text-decoration: none;
+    background-color:rgba(0,0,0,0.4);
+    padding: 7.5px 10px; /*top and bottom, left and right*/
+    border-radius: 20px; /*curves the sides of the border*/
+    border:  1px solid white;
+    transition:0.5s;
+}
+
+header.pimary nav a:hover{
+    background-color:rgba(0,0,0,0.8);
+}
+
+header.primary ul{
+    padding:0;
+    display: flex;
+    flex-direction: row; /*setting display property to "flex" automatically sets this property to row*/
+    justify-content:space-evenly; /*evenly spaces the content inside the ul*/
+    
+}
+
+header.primary ul li{
+    list-style-type: none; /*removes indicators (being the bullet points in this case)*/
+}
+
+/*
+Colors to use:
+#5833A6
+#8679D9
+#2E3D59
+#141A26
+#0D0D0D
+*/
