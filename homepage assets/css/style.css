@@ -1,0 +1,21 @@
+html{
+    box-sizing:border-box;
+    font-family: "Rubik";
+}
+
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+
+body{
+    background-color: #141A26;
+}
+
+/*
+Colors to use:
+#5833A6
+#8679D9
+#2E3D59
+#141A26
+#0D0D0D
+*/
