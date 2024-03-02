@@ -15,7 +15,7 @@ header.primary{
     background-color: #5833A6;
     color:white;
     text-align:center;
-    text-shadow:2px,2px,black; /*Parameters: x-y positions of the shadow, color*/
+    text-shadow:10px,10px,black; /*Parameters: x-y positions of the shadow, color*/
 
     /*long form*/
     padding-top: 40px;
@@ -54,7 +54,7 @@ header.primary nav{
 header.primary nav a{
     color:white;
     text-decoration: none;
-    background-color:rgba(0,0,0,0.4);
+    background-color:rgba(0,0,0,0.0);
     padding: 7.5px 10px; /*top and bottom, left and right*/
     border-radius: 20px; /*curves the sides of the border*/
     border:  1px solid white;
@@ -63,6 +63,7 @@ header.primary nav a{
 
 header.pimary nav a:hover{
     background-color:rgba(0,0,0,0.8);
+    
 }
 
 header.primary ul{

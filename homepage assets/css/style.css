@@ -7,8 +7,32 @@ html{
     box-sizing: inherit;
 }
 
+header{
+    text-align: center;
+}
+
+header h1{
+    background-color: blue;
+}
+
+header h2{
+    border:5px;
+    background-color: red;
+}
+
 body{
-    background-color: #141A26;
+     /*#141A26*/
+}
+
+
+
+#projects ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    background-color:red;
+    padding-left: 5px;
 }
 
 /*
