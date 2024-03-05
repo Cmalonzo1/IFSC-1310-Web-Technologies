@@ -1,6 +1,6 @@
 html{
     box-sizing:border-box;
-    font-family: "Rubik";
+    font-family: "Comfortaa";
 }
 
 *,*:before,*:after{
@@ -13,6 +13,7 @@ header{
 
 header h1{
     background-color: blue;
+    margin-bottom: -15px;
 }
 
 header h2{
@@ -21,10 +22,10 @@ header h2{
 }
 
 body{
-     /*#141A26*/
+    background-image: url("../img/awesome.webp");
+    background-size: cover;
+    /*#141A26*/
 }
-
-
 
 #projects ul{
     display: flex;
@@ -33,6 +34,19 @@ body{
     list-style-type: none;
     background-color:red;
     padding-left: 5px;
+}
+
+#projects ul li a{
+    display:inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: blue;
+    padding: 50px 50px 50px 50px;
+}
+
+#projects ul a:hover{
+    color: black;
+    text-decoration: none;
 }
 
 /*
