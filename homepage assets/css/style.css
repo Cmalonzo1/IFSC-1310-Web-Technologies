@@ -22,7 +22,7 @@ header h2{
 }
 
 body{
-    background-image: url("../img/awesome.webp");
+    /*background-image: url("../img/awesome.webp");*/
     background-size: cover;
     /*#141A26*/
 }
@@ -30,23 +30,30 @@ body{
 #projects ul{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content:space-evenly;
     list-style-type: none;
     background-color:red;
     padding-left: 5px;
 }
 
 #projects ul li a{
-    display:inline-block;
+    box-sizing: content-box;
     color: white;
     text-decoration: none;
-    background-color: blue;
+    text-align: center;
+    font-size:25px;
+    word-wrap: break-word;
+
+    display:block;
     padding: 50px 50px 50px 50px;
+    background-color: rgba(0,0,255,0.5);
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px black;
+    transition: 0.3s;
 }
 
 #projects ul a:hover{
-    color: black;
-    text-decoration: none;
+    background-
 }
 
 /*
