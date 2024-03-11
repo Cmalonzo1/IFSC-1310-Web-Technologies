@@ -7,7 +7,11 @@ html{
 }
 
 /*-----Utility Classes------*/
-
+.container{
+    max-width: 960px;
+    width: 80vw;
+    margin: 40px auto;
+}
 
 /*-----Global Styles------*/
 
@@ -38,7 +42,6 @@ header.primary{
 
 header.primary h1{
     font-size: 2.4rem;
-    background: red;
     margin-bottom: 5px;
 }
 
@@ -49,7 +52,6 @@ header.primary h1 a{
 
 header.primary h2{
     margin: 0px 0px 25px 0px; /*top right bottom left*/
-    background: blue;
     font-size: 1.4rem;
     
 }
@@ -67,7 +69,7 @@ header.primary nav a{
     padding: 7.5px 10px; /*top and bottom, left and right*/
     border-radius: 20px; /*curves the sides of the border*/
     border: 1px solid white;
-    transition: 3s;
+    transition: 0.5s;
 }
 
 header.primary nav a:hover{
@@ -83,6 +85,25 @@ header.primary ul{
 
 header.primary ul li{
     list-style-type: none; /*removes indicators (being the bullet points in this case)*/
+}
+
+#content{
+    line-height: 1.5;
+}
+
+#content h2{
+    color: red;
+    border-bottom: 1px dotted black;
+}
+
+#content h3{
+    border-left: 7.5px solid blue;
+    padding: 7.5px;
+}
+
+#blog{
+    display:flexbox;
+    background:red;
 }
 
 /*
