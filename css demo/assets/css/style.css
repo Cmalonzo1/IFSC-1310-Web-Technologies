@@ -6,11 +6,20 @@ html{
     box-sizing: inherit;
 }
 
+/*-----Responsive Images------*/
+img{
+    max-width: 100%; /*ensures the images do not breach the width of the parent element*/
+}
+
 /*-----Utility Classes------*/
 .container{
     max-width: 960px;
     width: 80vw;
     margin: 40px auto;
+}
+
+.img-right{
+    float: right;
 }
 
 /*-----Global Styles------*/
@@ -102,8 +111,89 @@ header.primary ul li{
 }
 
 #blog{
-    display:flexbox;
-    background:red;
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 2rem;
+    border-bottom: 1px dotted black;
+    padding: 2rem;
+}
+#blog .post{
+    border: 2px solid black;
+    box-shadow: 5px 5px 15px black;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    transition: 0.5s;
+}
+
+#blog .post:hover{
+    border: 4px solid black;
+    box-shadow: 10px 10px 20px black;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 0.8rem;
+}
+
+#blog figure{
+    margin: 0;
+}
+
+#blog figcaption{
+    text-transform: uppercase;
+    font-size: 0.6rem;
+    text-align:center;
+    padding-bottom: 15px;
+}
+
+#blog header h2{
+    margin:0;
+    font-size: 25px;
+}
+
+#blog a{
+    color: red;
+}
+
+
+#practice h2{
+    border-bottom: 1px dotted black;
+}
+
+
+
+
+aside[role="complementary"]{
+    background-color: green;
+    padding: 2rem;
+}
+
+aside .container{
+    display:flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+}
+
+aside .container a{
+    color: white;
+}
+
+aside .container a:last-of-type{
+    display: block;
+    margin-top: 0.5rem;
+    text-align: right;
+}
+
+aside .widget footer{
+    display: none;
+}
+
+#colophon{
+    background-color: red;
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
 }
 
 /*
