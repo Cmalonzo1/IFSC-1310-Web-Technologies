@@ -7,22 +7,28 @@ html{
     box-sizing: inherit;
 }
 
+/*Utility Classes*/
+.centered
+{
+    background-color: white;
+}
+
 header{
     text-align: center;
+    color: #D8D9D7;
+    font-size: 1.5rem;
 }
 
 header h1{
-    background-color: blue;
     margin-bottom: -15px;
 }
 
 header h2{
     border:5px;
-    background-color: red;
 }
 
 body{
-    /*background-image: url("../img/awesome.webp");*/
+    background-image: url("../img/awesome.webp");
     background-size: cover;
     /*#141A26*/
 }
@@ -32,7 +38,6 @@ body{
     flex-direction: row;
     justify-content:space-evenly;
     list-style-type: none;
-    background-color:red;
     padding-left: 5px;
 }
 
@@ -41,26 +46,32 @@ body{
     color: white;
     text-decoration: none;
     text-align: center;
-    font-size:25px;
-    word-wrap: break-word;
+    font-size:20px;
 
-    display:block;
+    display:flex;
+    max-width: 150px;
     padding: 50px 50px 50px 50px;
-    background-color: rgba(0,0,255,0.5);
+    background-color: rgba(140, 140, 140,0.2);
     border-radius: 5px;
     box-shadow: 5px 5px 10px black;
     transition: 0.3s;
 }
 
 #projects ul a:hover{
-    background-
+    text-decoration: underline;
+    background-color: rgba(140, 140, 140, 0.8);
+}
+
+#snippets ul li img{
+    border-radius: 5px;
+    width: 450px;
 }
 
 /*
 Colors to use:
-#5833A6
-#8679D9
-#2E3D59
-#141A26
-#0D0D0D
+#0A0B0D
+#192026
+#D8D9D7
+#8C8C8C
+#595959
 */

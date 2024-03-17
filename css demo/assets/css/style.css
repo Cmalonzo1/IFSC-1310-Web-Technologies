@@ -101,13 +101,17 @@ header.primary ul li{
 }
 
 #content h2{
-    color: red;
     border-bottom: 1px dotted black;
 }
 
 #content h3{
     border-left: 7.5px solid blue;
     padding: 7.5px;
+}
+
+#content p:last-of-type{
+    border-bottom: 1px dotted rgba(0,0,0,0.3);
+    padding-bottom: 50px;
 }
 
 #blog{
