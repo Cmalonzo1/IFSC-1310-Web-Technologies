@@ -25,65 +25,56 @@
       line-height: 24px;
     }
     #wrapper {
+      
       background-color: #FFF;
       border: 1px solid #c0c0c0;
       width: 800px;
       margin-right: auto;
       margin-left: auto;
+      padding: 10px;
       text-shadow: 2px 2px #000;
     }
     #navy {
       background-color: #001f3f;
-      position: absolute;
-      left: 0;
-      top: 0;
+      float: left;
     }
     #teal {
       background-color: #39CCCC;
-      position: absolute;
-      right: 0;
-      top: 0;
+      float: left;
     }
     #blue {
       background-color: #0074D9;
-      position: absolute;
-      left: 0;
-      bottom: 0;
+      float: right;
     }
     #aqua {
       background-color: #7FDBFF;
-      position: absolute;
-      right: 0;
-      bottom: 0;
+      float: right;
     }
     #footer {
       background-color: #666;
-      position: static;
-      margin: auto;
+      clear: both;
     }
     h1 {
       color: #000;
       font-weight: normal;
       padding: 50px;
     }
-
-    .element{
-      position: absolute;
-      width: 175px;
-      height: 150px;
+    .color{
+      width: 150px;
+      height: 125px;
+      margin: 10px;
+      
     }
-
-
   </style>
 </head>
 <body>
-  <h1>Absolute 1</h1>
+  <h1>Float 2 Alternate</h1>
   <section id="wrapper">
-    <div id="navy" class="element">Navy</div>
-    <div id="teal" class="element">Teal</div>
-    <div id="blue" class="element">Blue</div>
-    <div id="aqua" class="element">Aqua</div>
-    <div id="footer" class="element">Footer</div>
+    <div id="navy" class="color">Navy</div>
+    <div id="teal" class="color">Teal</div>
+    <div id="blue" class="color">Blue</div>
+    <div id="aqua" class="color">Aqua</div>
+    <div id="footer">Footer</div>
   </section>
   <h1><a href=../index.html>Home</a></h1>
 </body>
