@@ -17,7 +17,7 @@
       box-sizing: inherit;
     }
     body {
-      background-color: #ECECEC;
+      background-color: white;
       font-weight: bold;
       font-family: Tahoma, Geneva, sans-serif;
       color: #FFF;
@@ -27,40 +27,52 @@
     #wrapper {
       background-color: #FFF;
       border: 1px solid #c0c0c0;
-      width: 800px;
-      margin-right: auto;
-      margin-left: auto;
+      position: relative;
+      margin: auto;
+      width: 800px; /*these values are temporary. I have a feeling you do not want these to be hard-coded*/
+      height: 400px;
       text-shadow: 2px 2px #000;
+      padding: 20px;
     }
     #navy {
       background-color: #001f3f;
+      float: left;
     }
     #teal {
       background-color: #39CCCC;
+      float: right;
     }
     #blue {
       background-color: #0074D9;
+      float: left;
     }
     #aqua {
       background-color: #7FDBFF;
+      float: right;
     }
     #footer {
       background-color: #666;
+      clear:both;
     }
     h1 {
       color: #000;
       font-weight: normal;
       padding: 50px;
     }
+    .color{
+      width:350px;
+      height: 150px;
+      margin: 10px;
+    }
   </style>
 </head>
 <body>
   <h1>Float 1</h1>
   <section id="wrapper">
-    <div id="navy">Navy</div>
-    <div id="teal">Teal</div>
-    <div id="blue">Blue</div>
-    <div id="aqua">Aqua</div>
+    <div id="navy" class="color">Navy</div>
+    <div id="teal" class="color">Teal</div>
+    <div id="blue" class="color">Blue</div>
+    <div id="aqua" class="color">Aqua</div>
     <div id="footer">Footer</div>
   </section>
 </body>
