@@ -19,7 +19,11 @@ img{
 }
 
 .img-right{
-    float: right;
+    float: right; /*Allows content to float around the image*/
+    margin: 20px 20px 30px 20px;
+    border: 2.5px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 2px black;
 }
 
 /*-----Global Styles------*/
@@ -114,6 +118,38 @@ header.primary ul li{
     padding-bottom: 50px;
 }
 
+caption{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+table{
+    border: 1px solid black;
+    width: 100%;
+    margin: 30px auto;
+    border-collapse: collapse;
+}
+
+th{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+tr:nth-child(even){
+    background-color: rgba(0,0,0,0.5);
+}
+
+td{
+    border: 1px solid rgba(0,0,0,0.5);
+    transition: 0.2s;
+    padding: 5px;
+}
+
+td:hover{
+    background-color: rgba(255,255,255,0.8);
+}
+
 #blog{
     display:flex;
     justify-content: space-around;
@@ -130,6 +166,8 @@ header.primary ul li{
     font-size: 0.8rem;
     transition: 0.5s;
 }
+
+
 
 #blog .post:hover{
     border: 4px solid black;
@@ -159,12 +197,16 @@ header.primary ul li{
     color: red;
 }
 
+#practice p{
+    color: white;
+    text-shadow: 1px 1px 5px black;
+    font-size: 20px;
+}
+
 
 #practice h2{
     border-bottom: 1px dotted black;
 }
-
-
 
 
 aside[role="complementary"]{
