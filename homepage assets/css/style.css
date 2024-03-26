@@ -67,6 +67,14 @@ body{
     width: 450px;
 }
 
+assignment3{
+    position: relative;
+}
+
+#cssPositioning li{
+    display: block;
+}
+
 /*
 Colors to use:
 #0A0B0D
