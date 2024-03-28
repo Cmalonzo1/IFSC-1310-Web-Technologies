@@ -1,6 +1,7 @@
 html{
     box-sizing:border-box;
     font-family: "Comfortaa";
+    color: white;
 }
 
 *,*:before,*:after{
@@ -67,13 +68,6 @@ body{
     width: 450px;
 }
 
-assignment3{
-    position: relative;
-}
-
-#cssPositioning li{
-    display: block;
-}
 
 /*
 Colors to use:
