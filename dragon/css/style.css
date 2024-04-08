@@ -1,0 +1,17 @@
+html{
+    box-sizing:border-box;
+    font-family: "Comfortaa";
+}
+
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+
+body{
+    max-width: 600px;
+    /*margin: auto;*/
+}
+
+header{
+    background-color: blue;  
+}
