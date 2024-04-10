@@ -7,28 +7,51 @@ html{
     box-sizing: inherit;
 }
 /*Utility*/
-.center{
-    max-width: 750px;
-    margin: auto;
-}
+
+/* scratching this idea
+.box{
+    background-color: white;
+}*/
+
 /*------*/
 body{
-    background-color: rgb(62, 62, 80);
-    /*background: url("../img/Dragon-sunset-awesome.jpeg") no-repeat center center / cover;*/
+    background: url("../img/Dragon-sunset-awesome.jpeg") no-repeat center center / cover;
+    filter: blur(5px);
 }
+
 header{
-    background-color: white;
-    /*position: relative;*/
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
 }
 
 header nav ul{
     display: flex;
     justify-content: space-between;
+    list-style-type: none;
+    width: 500px;
 }
 
 header nav ul li{
-    text-decoration: none;
+    list-style-type: none; 
 }
 
+header nav ul li a{
+    font-size: 20px;
+}
 
+header nav ul li a:hover{
+    text-decoration: underline;
+}
 
+main #workplease h1{
+    font-size: 50px;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    background-size: ;
+}
