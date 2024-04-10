@@ -17,9 +17,18 @@ body{
     /*background: url("../img/Dragon-sunset-awesome.jpeg") no-repeat center center / cover;*/
 }
 header{
-     
+    background-color: white;
+    /*position: relative;*/
 }
 
-header ul{
+header nav ul{
     display: flex;
+    justify-content: space-between;
 }
+
+header nav ul li{
+    text-decoration: none;
+}
+
+
+
