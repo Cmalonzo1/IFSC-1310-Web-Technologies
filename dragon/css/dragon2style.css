@@ -10,6 +10,7 @@ html{
 /*Utility*/
 img{
     border-radius: 10px;
+    max-width: 100%;
 }
 /*-------*/
 
@@ -35,7 +36,7 @@ header nav ul{
 
 header nav ul li a{
     font-size: 25px;
-    color: #00558C;
+    color: white;
 }
 
 header nav ul li a:hover{
@@ -43,15 +44,17 @@ header nav ul li a:hover{
 }
 
 #description{
-    background-image: url("../img/Dragon-sunset-awesome.jpeg");
+    background-image: url("../img/spacex-dragon-night-optimized.jpg");
+    background-size: cover;
     padding: 1px;
     color: white;
 }
 
 .subheader{
     text-align: center;
-    font-size: 50px;
+    font-size: 100px;
     color: white;
+    text-shadow: 1px 1px 5px black;
 }
 
 .content{
@@ -78,27 +81,42 @@ header nav ul li a:hover{
 
 .box{
     display: flex;
-    align-items: center;
-    border: 1px solid black;
+    flex-wrap: wrap;
     margin: 10px;
     color: white;
-    font-size: 20px;
+    font-size: 18px;
+    padding: 0px 0px 10px 30px;
     padding-bottom: 10px;
+}
+
+.box ul li{
+    padding-bottom: 25px;
+    list-style-type: none;
 }
 
 #configurations article:nth-of-type(-n+2){
     border-bottom: 1px solid white;
 }
 
+.box img{
+    width: 35%;
+    height: 35%;
+}
+
 .list-subheader{
     font-size: 30px;
+    padding: 0px 0px 10px 30px;
     color: white;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
 }
 
 footer h6{
     text-align: center;
-    background-color: black;
-    color: white;
-    padding: 5px;
 }
 
