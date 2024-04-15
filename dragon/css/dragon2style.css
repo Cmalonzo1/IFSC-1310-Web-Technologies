@@ -20,8 +20,9 @@ body{
 header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: black;
-    padding: 10px;
+    padding: 20px;
     margin: 0;
 }
 
@@ -44,18 +45,13 @@ header nav ul li a:hover{
 #description{
     background-image: url("../img/Dragon-sunset-awesome.jpeg");
     padding: 1px;
+    color: white;
 }
 
 .subheader{
     text-align: center;
     font-size: 50px;
-    text-shadow: 2px 3px 2px black;
-    font-weight: bold;
-}
-
-#configurations{
-    background-color: black;
-    padding: 1px;
+    color: white;
 }
 
 .content{
@@ -66,7 +62,7 @@ header nav ul li a:hover{
 }
 
 .content p{
-    font-size: 25px;
+    font-size: 28px;
     width: 600px;
     text-align: center;
 }
@@ -75,22 +71,34 @@ header nav ul li a:hover{
     border: 2px solid white;
 }
 
+#configurations{
+    padding: 1px;
+    background-color: black;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    margin: 10px;
+    color: white;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+#configurations article:nth-of-type(-n+2){
+    border-bottom: 1px solid white;
+}
+
+.list-subheader{
+    font-size: 30px;
+    color: white;
+}
+
 footer h6{
     text-align: center;
     background-color: black;
     color: white;
     padding: 5px;
 }
-.box{
-    border: 1px solid black;
-}
-.box h3{
-    text-align: center;
-}
-#box1 img, #box3 img{
-    float: right;
-}
 
-.list-subheader{
-    font-size: 30px;
-}
