@@ -1,13 +1,96 @@
 html{
     box-sizing:border-box;
-    font-family: "Comfortaa";
+    font-family: 'Gothic A1';
 }
 
 *,*:before,*:after{
     box-sizing: inherit;
 }
 
+/*Utility*/
+img{
+    border-radius: 10px;
+}
+/*-------*/
+
+body{
+    margin: 0;
+}
+
 header{
     display: flex;
     justify-content: space-between;
+    background-color: black;
+    padding: 10px;
+    margin: 0;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    width: 500px;
+}
+
+header nav ul li a{
+    font-size: 25px;
+    color: #00558C;
+}
+
+header nav ul li a:hover{
+    text-decoration: underline;
+}
+
+#description{
+    background-image: url("../img/Dragon-sunset-awesome.jpeg");
+    padding: 1px;
+}
+
+.subheader{
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 2px 3px 2px black;
+    font-weight: bold;
+}
+
+#configurations{
+    background-color: black;
+    padding: 1px;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px 50px 30px;
+    align-items: center;
+}
+
+.content p{
+    font-size: 25px;
+    width: 600px;
+    text-align: center;
+}
+
+.content img{
+    border: 2px solid white;
+}
+
+footer h6{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+.box{
+    border: 1px solid black;
+}
+.box h3{
+    text-align: center;
+}
+#box1 img, #box3 img{
+    float: right;
+}
+
+.list-subheader{
+    font-size: 30px;
 }
