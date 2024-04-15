@@ -6,22 +6,40 @@ html{
 *,*:before,*:after{
     box-sizing: inherit;
 }
-/*Utility*/
 
-/* scratching this idea
 .box{
-    background-color: white;
-}*/
+    /*position: relative;*/
+    background-color: green;
+    margin: 20px auto;
+    padding: 10px 10px;
+}
+
+.box img{
+    border-radius: 5px;
+}
+
+#box1 img, #box3 img{
+    float: right;
+}
+
+#box2 img{
+    float: left;
+}
+
+article p{
+    font-size: 2rem;
+    text-align: center;
+    margin: auto;
+}
 
 /*------*/
 body{
-    background: url("../img/Dragon-sunset-awesome.jpeg") no-repeat center center / cover;
-    filter: blur(5px);
+/*    background: url("../img/Dragon-sunset-awesome.jpeg") no-repeat center center / cover;
+*/    
+    /*filter: blur(5px); need to figure out how to blur my background without affecting my text*/ 
 }
 
 header{
-    background-size: cover;
-    color: white;
     display: flex;
     justify-content: space-between;
     padding: 0px 10px;
@@ -30,7 +48,6 @@ header{
 header nav ul{
     display: flex;
     justify-content: space-between;
-    list-style-type: none;
     width: 500px;
 }
 
@@ -46,12 +63,38 @@ header nav ul li a:hover{
     text-decoration: underline;
 }
 
+#motto{
+    background-color: red;
+}
+
+#workplease{
+    /*max-width: 700px;*/
+    margin: auto;
+}
+
+#description{
+    background-color: red;
+    background: url("../img/dragon-standing-up.jpg") no-repeat cover cover;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding: 200px;
+    
+}
+
 main #workplease h1{
     font-size: 50px;
+    text-align: center;
+}
+
+main #workplease h2{
+    font-size: 50px;
+    text-align: center;
 }
 
 footer{
     text-align: center;
     background-color: black;
-    background-size: ;
+    width: 100%;
+    color: white;
 }

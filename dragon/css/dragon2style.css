@@ -1,0 +1,13 @@
+html{
+    box-sizing:border-box;
+    font-family: "Comfortaa";
+}
+
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
