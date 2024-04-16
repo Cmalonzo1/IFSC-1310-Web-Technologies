@@ -1,79 +1,25 @@
 html{
     box-sizing:border-box;
-    font-family: "Comfortaa";
-    color: white;
+    color: black;
 }
 
 *,*:before,*:after{
     box-sizing: inherit;
 }
 
-/*Utility Classes*/
-.centered
-{
-    background-color: white;
-}
-
-header{
-    text-align: center;
-    color: #D8D9D7;
-    font-size: 1.5rem;
-}
-
-header h1{
-    margin-bottom: -15px;
-}
-
-header h2{
-    border:5px;
-}
-
 body{
-    background-image: url("../img/awesome.webp");
-    background-size: cover;
-    /*#141A26*/
+    margin: 0;
 }
 
-#projects ul{
-    display: flex;
-    flex-direction: row;
-    justify-content:space-evenly;
-    list-style-type: none;
-    padding-left: 5px;
+.list ul{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
 }
 
-#projects ul li a{
-    box-sizing: content-box;
-    color: white;
-    text-decoration: none;
-    text-align: center;
-    font-size:20px;
-
-    display:flex;
-    max-width: 150px;
-    padding: 50px 50px 50px 50px;
-    background-color: rgba(140, 140, 140,0.2);
-    border-radius: 5px;
-    box-shadow: 5px 5px 10px black;
-    transition: 0.3s;
-}
-
-#projects ul a:hover{
-    text-decoration: underline;
-    background-color: rgba(140, 140, 140, 0.8);
-}
-
-#snippets ul li img{
-    border-radius: 5px;
-    width: 450px;
+.list ul li{
+    grid-column-start: 2;
 }
 
 
-/*
-Colors to use:
-#0A0B0D
-#192026
-#D8D9D7
-#8C8C8C
-#595959
-*/
+
