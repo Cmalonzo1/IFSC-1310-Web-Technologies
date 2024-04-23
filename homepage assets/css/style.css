@@ -7,11 +7,30 @@ html{
     box-sizing: inherit;
 }
 
+/*utility*/
+.dropdown{
+    display: inline-block;
+    position: relative;
+}
+
 body{
     margin: 0;
 }
 
-.list ul{
+header{
+    display: grid;
+    padding: 1px;
+    background-color: blue;
+}
+
+header #name{
+    background-color: red;
+    margin-left: 20px;
+    max-width: 275px;
+    text-align: center;
+}
+
+/*.list ul{
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
@@ -19,7 +38,7 @@ body{
 
 .list ul li{
     grid-column-start: 2;
-}
+}*/
 
 
 
