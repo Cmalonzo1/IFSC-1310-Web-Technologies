@@ -9,6 +9,7 @@ html{
 
 /*utility*/
 .dropdown{
+    align-content: center;
     display: inline-block;
     position: relative;
 }
@@ -18,16 +19,21 @@ body{
 }
 
 header{
-    display: grid;
-    padding: 1px;
-    background-color: blue;
+    display: flex;
+    justify-content: center;
 }
 
 header #name{
-    background-color: red;
-    margin-left: 20px;
-    max-width: 275px;
     text-align: center;
+    font-size: 25px;
+}
+
+header #name h1{
+    margin-bottom: -20px;
+}
+
+.grid-container{
+    display: grid;
 }
 
 /*.list ul{
