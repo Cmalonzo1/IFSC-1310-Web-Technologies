@@ -1,0 +1,95 @@
+html{
+    box-sizing:border-box;
+    color: white;
+    font-family: Poppins;
+    
+}
+
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+
+/*Utility*/
+img{
+    max-width: 100%;
+}
+
+ul{
+    list-style-type: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.section-title{
+    text-align: center;
+}
+/*-------*/
+
+body{
+    margin: 0;
+    background: linear-gradient(45deg, #23074d, #cc5333, #C33764, #1D2671);
+    background-size: 500% 500%;
+    animation: gradient 20s ease-in-out infinite;
+}
+
+/*Background Gradient Animation*/
+@keyframes gradient{
+    0%{
+        background-position: 0%, 50%;
+    }
+    50%{
+        background-position: 100%, 50%;
+    }
+    100%{
+        background-position: 0%, 50%;
+    }
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    border-bottom: 25px solid black;
+}
+
+header #name{
+    text-align: center;
+    font-size: 25px;
+}
+
+header #name h1{
+    margin-bottom: -20px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 25% 25% 25% 25%;
+    text-align: center;
+    font-size: 30px;
+}
+
+#projects li{
+    padding: 0px 0px 0px 50px;
+}
+
+/*Creating a dropdown menu when hovering over CSS Positioning*/
+.dropdown-menu{
+    position: relative;
+    display: inline-block;
+}
+/*Hides the menu by default*/
+.dropdown{
+    display: none;
+}
+/*Hovering over dropdown-menu applies these attributes to dropdown*/
+.dropdown a{
+    font-size: 15px;
+}
+.dropdown-menu:hover .dropdown{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
