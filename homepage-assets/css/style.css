@@ -70,7 +70,11 @@ header #name h1{
 }
 
 #projects li{
-    padding: 0px 0px 0px 50px;
+    margin-bottom: 350px;
+}
+
+#projects li a:nth-child(5n+1){
+    color: red;
 }
 
 /*Creating a dropdown menu when hovering over CSS Positioning*/
@@ -81,15 +85,15 @@ header #name h1{
 /*Hides the menu by default*/
 .dropdown{
     display: none;
+    font-size: 25px;
 }
 /*Hovering over dropdown-menu applies these attributes to dropdown*/
-.dropdown a{
-    font-size: 15px;
-}
 .dropdown-menu:hover .dropdown{
+    position: absolute;
     display: flex;
     flex-direction: column;
-}
+    width: 100%;
+} 
 
 
 
