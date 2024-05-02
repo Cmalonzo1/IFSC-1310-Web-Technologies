@@ -11,7 +11,9 @@ html{
 
 /*Utility*/
 img{
-    max-width: 100%;
+    max-width: 75%;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 10px;
 }
 
 ul{
@@ -22,18 +24,38 @@ a{
     text-decoration: none;
 }
 .section-title{
+    font-size: 30px;
+}
+
+.black-line{
+    border-bottom: 10px solid black;
+}
+
+.centered{
     text-align: center;
 }
 /*-------*/
 
 body{
     margin: 0;
-    background: linear-gradient(45deg, #23074d, #cc5333, #C33764, #1D2671);
-    background-size: 500% 500%;
-    animation: gradient 20s ease-in-out infinite;
+    background: linear-gradient(90deg, #2A2359,#BF247A,#BF3939, #BF247A, #2A2359);
+    background-size: 300%;
+    animation: gradient 20s infinite ease-in-out;
 }
 
-/*Background Gradient Animation*/
+/*Background Radial Gradient Animation
+@keyframes zoom{
+    0%{
+        background-size: 100% 100%;
+    }
+    100%{
+        background-size: 200% 200%;
+    }
+}
+*/
+
+/*Background Linear Gradient Animation*/
+
 @keyframes gradient{
     0%{
         background-position: 0%, 50%;
@@ -46,14 +68,13 @@ body{
     }
 }
 
+
 header{
     display: flex;
     justify-content: center;
-    border-bottom: 25px solid black;
 }
 
 header #name{
-    text-align: center;
     font-size: 25px;
 }
 
@@ -63,19 +84,17 @@ header #name h1{
 
 .grid-container{
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: 50% 50%;
     grid-template-rows: 25% 25% 25% 25%;
     text-align: center;
     font-size: 30px;
 }
 
-#projects li{
-    margin-bottom: 350px;
+.grid-container li{
+    padding-bottom: 125px;
 }
 
-#projects li a:nth-child(5n+1){
-    color: red;
-}
+
 
 /*Creating a dropdown menu when hovering over CSS Positioning*/
 .dropdown-menu{
@@ -85,7 +104,7 @@ header #name h1{
 /*Hides the menu by default*/
 .dropdown{
     display: none;
-    font-size: 25px;
+    font-size: 20px;
 }
 /*Hovering over dropdown-menu applies these attributes to dropdown*/
 .dropdown-menu:hover .dropdown{
@@ -93,7 +112,13 @@ header #name h1{
     display: flex;
     flex-direction: column;
     width: 100%;
-} 
+}
+
+#progressive-enhancement p{
+    max-width: 700px;
+    margin: auto;
+}
+
 
 
 
