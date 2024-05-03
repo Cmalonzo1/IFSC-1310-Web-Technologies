@@ -160,3 +160,11 @@ footer h6{
     font-size: 20px;
     border-bottom: 1px solid white;
 }
+
+details{
+    padding: 20px;
+}
+
+details summary{
+    font-size: 25px;
+}
