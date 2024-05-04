@@ -1,5 +1,14 @@
 $(document).ready(function(){
-    $("fade-container").slick(){
-        
-    }
-}
+
+    $('.fade').slick({
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slide: 'div',
+        fade: true,
+        cssEase: "linear",
+        autoplay: true,
+        autoplaySpeed: 2000,
+    });
+    
+});
