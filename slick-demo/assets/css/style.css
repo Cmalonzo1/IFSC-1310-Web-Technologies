@@ -1,5 +1,16 @@
+html {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
 body{
     background-color:darkgray;
+    text-align: center;
 }
 
 img{
@@ -33,4 +44,8 @@ img{
 .slick-autoplay-toggle-button:focus 
 {
     color:black;
+}
+
+a{
+    font-size: 50px;
 }
