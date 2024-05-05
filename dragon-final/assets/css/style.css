@@ -105,6 +105,7 @@ img{
     grid-template-rows: 100%;
     padding: 0px 150px 0px 150px;
     align-items: center;
+    -ms-grid-row-align: end;
 }
 
 iframe{
@@ -112,7 +113,7 @@ iframe{
 }
 /*-------*/
 
-#page-title content{
+#page-title #primary{
     display: flex;
     flex-direction: column;
     align-items: center;
