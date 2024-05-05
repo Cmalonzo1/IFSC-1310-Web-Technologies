@@ -82,10 +82,14 @@ header #name h1{
     margin-bottom: -20px;
 }
 
+#projects ul li a:hover{
+    text-decoration: underline;
+}
+
 .grid-container{
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-rows: 50% 50%;
     text-align: center;
     font-size: 30px;
 }
@@ -94,9 +98,9 @@ header #name h1{
     padding-bottom: 125px;
 }
 
-
-
-
+#snippets .grid-container:last-child{
+    border-radius: 50%;
+}
 
 /*Creating a dropdown menu when hovering over CSS Positioning*/
 .dropdown-menu{
